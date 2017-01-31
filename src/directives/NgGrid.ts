@@ -14,7 +14,6 @@ import { NgGridPlaceholder } from '../components/NgGridPlaceholder';
 		'(touchmove)': '_onMouseMove($event)',
 		'(touchend)': '_onMouseUp($event)',
 		'(window:resize)': '_onResize($event)',
-		'(document:mousemove)': '_onMouseMove($event)',
 		'(document:mouseup)': '_onMouseUp($event)'
 	},
 })
